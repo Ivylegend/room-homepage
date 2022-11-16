@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Room homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="top">
+      <nav>
+        <img class="menu" onclick="openFunction()" src="images/icon-hamburger.svg" alt="">
+        <img class="logo" src="images/logo.svg" alt="" />
+        <ul>
+          <img class="close" onclick="closeFunction()" src="images/icon-close.svg" alt="">
+          <li><a href="/">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="top-div">
+        <div class="mySlides fade">
+          <img class="top-images" src="images/desktop-image-hero-1.jpg" alt="" />
+          <div class="text">
+            <h2>Discover innovative ways to decorate</h2>
+            <p>
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <a class="shop" href=""
+              >Shop now <img src="images/icon-arrow.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <img class="top-images" src="images/desktop-image-hero-2.jpg" alt="" />
+          <div class="text">
+            <h2>We are available all across the globe</h2>
+            <p>
+              With stores all over the world, it's easy for you to find
+              furniture for your home or place of business. Locally, we’re in
+              most major cities throughout the country. Find the branch nearest
+              you using our store locator. Any questions? Don't hesitate to
+              contact us today.
+            </p>
+            <a class="shop" href=""
+              >Shop now <img src="images/icon-arrow.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <img class="top-images" src="images/desktop-image-hero-3.jpg" alt="" />
+          <div class="text">
+            <h2>Manufactured with the best materials</h2>
+            <p>
+              Our modern furniture store provide a high level of quality. Our
+              company has invested in advanced technology to ensure that every
+              product is made as perfect and as consistent as possible. With
+              three decades of experience in this industry, we understand what
+              customers want for their home and office.
+            </p>
+            <a class="shop" href=""
+              >Shop now <img src="images/icon-arrow.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="arrow-keys">
+          <span class="left-key" onclick="plusSlides(-1)"><img src="images/icon-angle-left.svg" alt=""
+          /></span>
+          <span class="right-key" onclick="plusSlides(1)"
+            ><img src="images/icon-angle-right.svg" alt=""
+          /></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-div">
+      <div class="first">
+        <img src="images/image-about-dark.jpg" alt="" />
+      </div>
+      <div class="middle">
+        <h3>About our furniture</h3>
+        <p>
+          Our multifunctional collection blends design and function to suit your
+          individual taste. Make each room unique, or pick a cohesive theme that
+          best express your interests and what inspires you. Find the furniture
+          pieces you need, from traditional to contemporary styles or anything
+          in between. Product specialists are available to help you create your
+          dream space.
+        </p>
+      </div>
+      <div class="last">
+        <img src="images/image-about-light.jpg" alt="" />
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
